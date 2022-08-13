@@ -1,0 +1,634 @@
+{
+  "global": {
+    "assets": "Assets",
+    "address": "Address",
+    "balance": "Balance",
+    "load_more": "Load more",
+    "more": "More",
+    "less": "Less",
+    "not_found": "Not found",
+    "parcel": "Parcel",
+    "parcel_count": "{count} {count, plural, one {Parcel} other {Parcels}}",
+    "parcel_with_coords": "Parcel {x},{y}",
+    "estate": "Estate",
+    "wearable": "Wearable",
+    "ens": "Name",
+    "art": "Art",
+    "cancel": "Cancel",
+    "proceed": "Proceed",
+    "nft": "NFT",
+    "loading": "Loading",
+    "settings": "Settings",
+    "accept": "Accept",
+    "update": "Update",
+    "search": "Search",
+    "apply": "Apply",
+    "network": "Network",
+    "issue_number": "Issue Number",
+    "primary": "Primary",
+    "secondary": "Secondary",
+    "item": "Item",
+    "type": "Type",
+    "sale_type": "Sale type",
+    "sell_price": "Sell price",
+    "no_results": "No results",
+    "learn_more": "Learn More",
+    "category": "Category",
+    "rarity": "Rarity",
+    "stock": "Stock",
+    "price": "Price",
+    "collection": "Collection",
+    "time": "Time",
+    "buyer": "Buyer",
+    "bid": "Bid",
+    "order": "Listing",
+    "mint": "Mint",
+    "back": "Back",
+    "emote": "Emote",
+    "time_ago": "{time} ago"
+  },
+  "address": {
+    "invalid_address": "That's not a valid address",
+    "ens_not_resolved": "That's not a valid ENS name"
+  },
+  "error_boundary": {
+    "message": "Oops! Something went wrong..."
+  },
+  "estate_detail": {
+    "dissolved": "This Estate has been dissolved"
+  },
+  "vendors": {
+    "decentraland": "Decentraland",
+    "super_rare": "SuperRare",
+    "makers_place": "MakersPlace",
+    "known_origin": "KnownOrigin"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "land": "Land",
+    "collectibles": "Collectibles",
+    "partners": "Partners",
+    "my_assets": "My Assets",
+    "my_bids": "My Bids",
+    "activity": "Activity"
+  },
+  "menu": {
+    "all": "All Assets",
+    "land": "Land",
+    "parcels": "Parcels",
+    "estates": "Estates",
+    "wearables": "Wearables",
+    "wearables_head": "Head",
+    "wearables_eyebrows": "Eyebrows",
+    "wearables_eyes": "Eyes",
+    "wearables_facial_hair": "Facial hair",
+    "wearables_hair": "Hair",
+    "wearables_mouth": "Mouth",
+    "wearables_upper_body": "Upper body",
+    "wearables_lower_body": "Lower body",
+    "wearables_feet": "Feet",
+    "wearables_accessories": "Accessories",
+    "wearables_earring": "Earring",
+    "wearables_eyewear": "Eyewear",
+    "wearables_hat": "Hat",
+    "wearables_helmet": "Helmet",
+    "wearables_mask": "Mask",
+    "wearables_tiara": "Tiara",
+    "wearables_top_head": "Top head",
+    "wearables_skin": "Skins",
+    "emotes": "Emotes",
+    "ens": "Names",
+    "editions": "Editions",
+    "tokens": "Tokens",
+    "decentraland": "Decentraland",
+    "super_rare": "SuperRare",
+    "known_origin": "KnownOrigin",
+    "makers_place": "MakersPlace",
+    "collections": "Collections",
+    "on_sale": "On Sale",
+    "sales": "Sales",
+    "bids": "Bids",
+    "store_settings": "Settings"
+  },
+  "vendor_menu": {
+    "no_assets": "No assets",
+    "assets_count": "{count} {count, plural, one {asset} other {assets}}",
+    "more_than_assets_count": "+{count} assets"
+  },
+  "filters": {
+    "type": "Type",
+    "item": "Items available for minting",
+    "nft": "Items being resold",
+    "name": "Name",
+    "newest": "Newest",
+    "recently_listed": "Recently listed",
+    "recently_sold": "Recently sold",
+    "cheapest": "Cheapest",
+    "no_results": "No results were found.",
+    "clear": "Clear filters",
+    "recently_reviewed": "Recently reviewed",
+    "size": "Size"
+  },
+  "home_page": {
+    "analytics": {
+      "volume": {
+        "title": "Marketplace Volume",
+        "subtitle": "Includes Land, Wearables, Emotes and Names",
+        "total_sales": "Total sales",
+        "total_sales_tooltip": "Number of NFTs sold, including primary and secondary markets.",
+        "total_volume": "Total volume",
+        "total_volume_tooltip": "Volume of sales in MANA, including primary and secondary markets.",
+        "creators_earnings": "creators earnings",
+        "creators_earnings_tooltip": "Creators earn 97.5% of primary sales and 2.5% of secondary sales as royalties.",
+        "dao_revenue": "dao revenue",
+        "dao_revenue_tooltip": "The DAO gets 2.5% of Land and primary market sales, plus the wearables’ publication fee.",
+        "seven_days": "7 DAYS",
+        "thirty_days": "30 DAYS",
+        "all": "all"
+      },
+      "rankings": {
+        "title": "Rankings",
+        "subtitle": "Includes only Wearables and Emotes",
+        "most_volume": "Volume (MANA)",
+        "most_sales": "Items (quantity)",
+        "no_results_title": "No results found for these filters",
+        "no_results_action": "{link} or select different ones",
+        "clear_filters": "Clear filters",
+        "items": {
+          "all_categories": "All categories",
+          "all_rarities": "All rarities",
+          "by_creator": "by {creator}",
+          "tab_title": "Wearables",
+          "item": "Item",
+          "category": "Category",
+          "rarity": "Rarity",
+          "price": "Price",
+          "items_sold": "Items sold"
+        },
+        "creators": {
+          "tab_title": "Creators",
+          "creator": "Creator",
+          "collections": "Collections",
+          "collections_created": "{collections} Collections",
+          "items_sold": "Items sold",
+          "unique_collectors": "Unique collectors",
+          "unique_collectors_tooltip": "Number of users who own at least 1 item from the Creator.",
+          "total_volume_sales": "Total Volume of Sales",
+          "total_volume_sales_tooltip": "Includes only primary sales"
+        },
+        "total_volume": "Total Volume",
+        "total_volume_tooltip": "Includes both primary and secondary sales.",
+        "collectors": {
+          "tab_title": "Collectors",
+          "collector": "Collector",
+          "items_bought": "Items Bought",
+          "collected_items": "{amount} Collected items",
+          "creators_supported": "Creators Supported",
+          "creators_supported_tooltip": "Number of Creators the user bought at least 1 item from.",
+          "unique_items_bought": "Mythic/Unique items Bought",
+          "unique_items_bought_tooltip": "Number of Mythic or Unique items the user has bought.",
+          "total_spent": "Total Spent",
+          "total_spent_tooltip": "Total amount of MANA spent in both primary and secondary markets."
+        }
+      }
+    },
+    "recently_sold": {
+      "title": "Recently Sold",
+      "last_updated": "Last updated: {date}",
+      "tabs": {
+        "wearable": "Wearables",
+        "parcel": "Land",
+        "emote": "Emotes",
+        "ens": "Names"
+      },
+      "wearables": {
+        "item": "Item",
+        "seller": "Seller",
+        "buyer": "Buyer",
+        "type": "Type",
+        "time": "Time",
+        "price": "Price"
+      },
+      "parcel": {
+        "parcel": "Parcel",
+        "time": "Time",
+        "price": "Price"
+      }
+    },
+    "title": "Decentraland Marketplace",
+    "subtitle": "Welcome to the virtual world's one-stop-shop for the very best digital assets.",
+    "get_started": "Start Browsing",
+    "home_trending_items": "Trending items",
+    "home_trending_items_subtitle": "Bestselling Items over the last 24hs 🔥",
+    "home_trending_items_explore_all": "Explore all",
+    "home_recently_listed_items_subtitle": "Items being resold",
+    "home_latest_sales_items_subtitle": "Items being minted",
+    "home_new_items": "Newest items",
+    "home_sold_items": "Latest sales",
+    "home_wearables": "Latest listings",
+    "home_land": "Parcels and Estates",
+    "home_ens": "Names"
+  },
+  "collection_page": {
+    "no_collection": "No Collection",
+    "unlist_from_market": "Unlist from market",
+    "list_on_market": "List on market",
+    "edit_in_builder": "Edit in builder",
+    "on_sale": "On Sale",
+    "edit_price": "Edit price",
+    "mint_item": "Mint item"
+  },
+  "store_settings": {
+    "settings": "Settings",
+    "see_store_as_guest": "See store as guest",
+    "store_cover": "Store cover",
+    "description": "Description",
+    "website": "Website",
+    "link_start_with_error": "Link should start with {value}",
+    "size_error": "Maximum file size allowed is of {max}, the file you selected has {current}",
+    "facebook": "Facebook Handle",
+    "twitter": "Twitter Handle",
+    "discord": "Discord Channel ID",
+    "save": "Save",
+    "revert": "Revert",
+    "add_cover_picture": "Click here to add a cover picture",
+    "unsaved_changes": "You will lose any unsaved changes, are you sure you want to leave?"
+  },
+  "external_link_modal": {
+    "header": "You are exiting Decentraland",
+    "before_link": "By clicking PROCEED, you will be redirected to:",
+    "after_link": "Please check twice that the link has nothing suspicious on it to avoid being the victim of an attack."
+  },
+  "sales": {
+    "stats": "Stats",
+    "total_sales": "Total sales",
+    "total_earnings": "Total earnings",
+    "royalties": "Royalty earnings",
+    "ethereum_earnings": "Ethereum earnings",
+    "polygon_earnings": "Polygon earnings",
+    "activity": "Activity"
+  },
+  "partners_page": {
+    "partners": "Partners",
+    "latest_from": "Latest from {vendor}"
+  },
+  "partner_sidebar": {
+    "assets": "{count} {count, plural, one {asset} other {assets}}"
+  },
+  "nft_list": {
+    "empty": "No results"
+  },
+  "nft_filters": {
+    "on_sale": "On sale",
+    "filter": "Filter",
+    "order_by": "Order By",
+    "results": "{count} {count, plural, one {result} other {results}}",
+    "more_than_results": "+{count} results",
+    "search": "Search {suffix}...",
+    "search_land": "Search land...",
+    "rarity": "Rarity",
+    "gender": "Gender",
+    "collection": "Collection",
+    "all_collections": "All Collections",
+    "network": "Network",
+    "all_networks": "All Networks",
+    "smart_wearables": "Smart Wearables"
+  },
+  "nft_card": {
+    "expires_at": "Expires {date}"
+  },
+  "nft_sidebar": {
+    "categories": "Categories",
+    "back": "Back"
+  },
+  "account_sidebar": {
+    "assets": "ASSETS",
+    "store": "STORE",
+    "originals": "Originals",
+    "originals_detail": "Created by the user",
+    "listings": "Collectibles",
+    "listings_detail": "Collected by the user"
+  },
+  "on_sale_list": {
+    "search": "Search {count} items..."
+  },
+  "collection_list": {
+    "search": "Search {count} collections...",
+    "item_count": "{count} items"
+  },
+  "asset_page": {
+    "actions": {
+      "cancel_sale": "Remove listing",
+      "manage": "Manage",
+      "update": "Update price",
+      "buy": "Buy",
+      "mint": "Mint",
+      "bid": "Bid",
+      "see_listing": "See listing",
+      "sell": "Sell",
+      "transfer": "Transfer",
+      "leaving_decentraland": "Leaving Decentraland",
+      "leaving_decentraland_description": "You can't publish or update {vendor} assets to the Decentraland Marketplace yet. Do you want to proceed to {vendor_link} to publish it there?",
+      "leaving_decentraland_disclaimer": "Your NFTs will still be listed in the Decentraland Marketplace",
+      "edit_price": "Edit price",
+      "change_beneficiary": "Change beneficiary",
+      "mint_item": "Mint item"
+    },
+    "description": "Description",
+    "owner": "Owner",
+    "creator": "Creator",
+    "price": "Price",
+    "available": "Available",
+    "stock": "Stock",
+    "collection": "Collection",
+    "expires": "Expires",
+    "plaza": "Plaza",
+    "road": "Road",
+    "district": "District",
+    "jump_in": "Jump In",
+    "part_of_estate": "Part of {estate_name}",
+    "sold_out": "Sold Out"
+  },
+  "proximity": {
+    "adjacent": "Adjacent",
+    "distance": "{distance} {distance, plural, one {parcel} other {parcels}} away"
+  },
+  "bid": {
+    "from": "From",
+    "price": "Price",
+    "time_left": "Time Left",
+    "not_enough_mana_on_bid_received": "The bidder doesn't have enough MANA to pay for this bid",
+    "invalid_fingerprint_on_bid_received": "This asset has been modified since this bid was made and it's not valid anymore",
+    "invalid_seller": "You don't own this asset anymore",
+    "not_enough_mana_on_bid_placed": "You don't have enough MANA to pay for this bid",
+    "invalid_fingerprint_on_bid_placed": "This asset has been modified since this bid was made and it's not valid anymore unless you update it"
+  },
+  "transaction_history": {
+    "title": "Latest Sales",
+    "from": "From",
+    "to": "To",
+    "type": "Type",
+    "when": "When",
+    "price": "Price"
+  },
+  "body_shape": {
+    "male": "Male",
+    "female": "Female",
+    "unisex": "Unisex"
+  },
+  "rarity": {
+    "unique": "Unique",
+    "mythic": "Mythic",
+    "legendary": "Legendary",
+    "epic": "Epic",
+    "rare": "Rare",
+    "uncommon": "Uncommon",
+    "common": "Common"
+  },
+  "rarity_description": {
+    "unique": "Grail-like: One-of-a-kind",
+    "mythic": "For the lucky few: max 10",
+    "legendary": "Limited supply: max 100",
+    "epic": "Max supply: 1000",
+    "rare": "Max supply: 5000",
+    "uncommon": "Max supply: 10,000",
+    "common": "Max supply: 100,000"
+  },
+  "wearable": {
+    "category": {
+      "body_shape": "Body Shape",
+      "earring": "Earring",
+      "eyebrows": "Eyebrows",
+      "eyes": "Eyes",
+      "eyewear": "Eyewear",
+      "facial_hair": "Facial Hair",
+      "feet": "Feet",
+      "head": "Head",
+      "hair": "Hair",
+      "hat": "Hat",
+      "helmet": "Helmet",
+      "lower_body": "Lower Body",
+      "mask": "Mask",
+      "mouth": "Mouth",
+      "tiara": "Tiara",
+      "top_head": "Top Head",
+      "upper_body": "Upper Body",
+      "skin": "Skin"
+    },
+    "smart": "Smart Wearable",
+    "smart_badge": "Smart"
+  },
+  "wearable_preview": {
+    "toggle_wearable": "Wearable",
+    "toggle_avatar": "Try On",
+    "missing_representation_error": {
+      "male": "male",
+      "female": "female",
+      "message": "This wearable doesn't have a {bodyShape} representation"
+    }
+  },
+  "sell_page": {
+    "title": "List for sale",
+    "update_title": "Update your listing",
+    "subtitle": "Set a price and expiration date for {name}.",
+    "update_subtitle": "Set a new price and expiration date for {name}.",
+    "price": "Price",
+    "expiration_date": "Expiration date",
+    "invalid_date": "This date has already passed",
+    "submit": "List for sale",
+    "update_submit": "Update",
+    "invalid": "Something roto",
+    "confirm": {
+      "title": "Please confirm",
+      "line_one": "You are about to list {name} on sale for {amount}.",
+      "line_two": "Please re-enter the price to confirm:",
+      "warning": "Warning: this price is way below market value"
+    }
+  },
+  "buy_page": {
+    "title": "Buy {category}",
+    "subtitle": "You are about to buy {name} for {amount}.",
+    "not_for_sale": "{name} is not for sale.",
+    "buy": "Buy",
+    "no_fingerprint": "Could not load fingerprint.",
+    "is_owner": "You are the owner of {name}.",
+    "not_enough_mana": "You don't have enough MANA to buy {name} for {amount}."
+  },
+  "price_too_low": {
+    "minimum_price": "The minimun amount supported for costless transactions is {price}",
+    "get_item_in_network": "In order to get this item you'll need to switch your network to {network} and then cover the transaction cost with {token}.",
+    "switch_network": "Switch to {network}"
+  },
+  "mint_page": {
+    "title": "Buy {category}",
+    "subtitle": "You are about to buy {name} for {amount}.",
+    "not_for_sale": "{name} is not available for minting, but you can search for it on the {secondary_market_link}.",
+    "secondary_market": "secondary market",
+    "action": "Buy",
+    "no_fingerprint": "Could not load fingerprint.",
+    "is_owner": "You are the owner of {name}.",
+    "not_enough_mana": "You don't have enough MANA to mint {name} for {amount}."
+  },
+  "bid_page": {
+    "title": "Place a bid",
+    "subtitle": "Set a price and expiration date for your bid on {name}.",
+    "price": "Price",
+    "expiration_date": "Expiration date",
+    "invalid_date": "This date has already passed",
+    "not_enougn_mana": "You don't have enough MANA",
+    "submit": "Bid",
+    "confirm": {
+      "title": "Please confirm",
+      "create_bid_line_one": "You are about to bid on {name} for {amount}.",
+      "accept_bid_line_one": "You are about to accept a bid on {name} for {amount}.",
+      "accept_bid_line_two": "Please re-enter the price to confirm:"
+    }
+  },
+  "my_bids_page": {
+    "bids_received": "Bids received",
+    "bids_placed": "Bids placed",
+    "bids_archived": "Bids archived",
+    "show_archived": "Show Archived ({amount})",
+    "show_received": "Show Received ({amount})",
+    "empty_received": "You haven't received any bids yet...",
+    "empty_archived": "You don't have any archived bids...",
+    "empty_placed": "You haven't placed any bids yet...",
+    "archive": "Archive",
+    "unarchive": "Unarchive"
+  },
+  "cancel_sale_page": {
+    "title": "Remove listing",
+    "subtitle": "You are about to remove the listing of {name} for {amount}.",
+    "not_for_sale": "There are no active listings for {name}.",
+    "invalid_owner": "You are not the owner of {name}.",
+    "submit": "Confirm"
+  },
+  "browse_page": {
+    "primary_market_title": "Store",
+    "primary_market_subtitle": "Items available for minting",
+    "secondary_market_title": "Listings",
+    "secondary_market_subtitle": "Items being resold"
+  },
+  "account_page": {
+    "copied": "Copied ✔",
+    "copied_capitalized": "COPIED ✔",
+    "copy_address": "COPY ADDRESS",
+    "primary_market_title": "Creations",
+    "primary_market_subtitle": "Items created by this user",
+    "secondary_market_title": "Collectibles",
+    "secondary_market_subtitle": "Items collected by this user"
+  },
+  "settings_page": {
+    "authorizations": "Authorizations",
+    "buy_more_mana": "BUY MORE",
+    "copy_address": "COPY ADDRESS",
+    "copied": "COPIED ✔",
+    "authorization_error": "We couldn't load your authorizations, please try again",
+    "authorization_error_contact": "If the error persist don't hesitate to contact us",
+    "for_buying": "For buying",
+    "for_bidding": "For bidding",
+    "authorization_Marketplace_MANAToken": "MANA",
+    "for_selling": "For selling",
+    "pending_tx": "Transaction pending, click the spinner to go to your activity for a detailed status"
+  },
+  "authorization": {
+    "authorize": "Authorize the {contract_link} contract to operate {symbol} on your behalf on {network}",
+    "allowed": "You authorized the {contract_link} contract to operate {symbol} on your behalf",
+    "approved": "You authorized the {contract_link} contract to operate {symbol} on your behalf",
+    "disallowed": "You unauthorized the {contract_link} contract to operate {symbol} on your behalf",
+    "disapproved": "You unauthorized the {contract_link} contract to operate {symbol} on your behalf"
+  },
+  "authorization_modal": {
+    "title": "Authorize {token}",
+    "description": "In order to continue you will need to authorize the {contract} contract to operate {token} tokens on your behalf.{br}This only has to be done once, and you can always manage your authorizations from the {settings_link} page."
+  },
+  "transfer_page": {
+    "title": "Transfer {category}",
+    "subtitle": "You are about to transfer {name}.",
+    "for_sale": "{name} can't be transferred because it's on sale.",
+    "invalid_owner": "You are not the owner of {name}.",
+    "invalid_address": "That's not a valid address",
+    "recipient": "Recepient address",
+    "warning": "Remember that transferring is an irreversible operation.{br}Please check the address carefully.",
+    "submit": "Transfer"
+  },
+  "activity_page": {
+    "latest_activity": "Latest Activity",
+    "clear_history": "Clear History",
+    "empty": "You have no activity yet.",
+    "clear_history_modal": {
+      "title": "Are you sure?",
+      "text": "You are about to clear your transaction history. Do you want to proceed?"
+    }
+  },
+  "transaction": {
+    "action": {
+      "approved": "approved",
+      "unapproved": "unapproved"
+    },
+    "detail": {
+      "approve_token": "You {action} the {contract} contract to operate {token} on your behalf.",
+      "create_order": "You listed {name} on sale for {price}.",
+      "cancel_order": "You removed the listing of {name} for {price}.",
+      "execute_order": "You bought {name} for {price}.",
+      "transfer": "You transferred {name} to {address}.",
+      "place_bid": "You placed a bid of {price} on {name}.",
+      "accept_bid": "You accepted a bid of {price} on {name}.",
+      "cancel_bid": "You cancelled a bid of {price} on {name}."
+    }
+  },
+  "mana": {
+    "running_on": "This is MANA running in the {network} Network"
+  },
+  "wallet": {
+    "sign_in_required": "You need to {sign_in} to access this page.",
+    "sign_in": "Sign In"
+  },
+  "slideshow": {
+    "view_all": "View All"
+  },
+  "highlights": {
+    "title": "Highlights"
+  },
+  "parcel_coordinates": {
+    "title": "Parcels",
+    "show_more": "SHOW MORE",
+    "show_less": "SHOW LESS"
+  },
+  "price_change_notice": {
+    "message": "The price may fluctuate due to market changes"
+  },
+  "networks": {
+    "ethereum": "Ethereum",
+    "matic": "Polygon"
+  },
+  "tokens": {
+    "ethereum": "ETH",
+    "matic": "MATIC"
+  },
+  "intro_popup": {
+    "title": "Introducing Polygon MANA",
+    "blog_link": "blog post",
+    "account_link": "Account dApp",
+    "manage_account": "Account",
+    "content": "Polygon MANA will allow you to make transactions much cheaper and faster.{br}You can learn more about Polygon MANA in our {blog_link}, and don't forget you can start managing your coins in our new {account_link}.{br}Click your avatar, select {manage_account} and start conquering the Metaverse.",
+    "dismiss": "Got It!"
+  },
+  "toast": {
+    "meta_transaction_failure": {
+      "title": "Meta transaction error",
+      "body": "There was an error sending the meta transaction.{br}Please try again or join our {discord_link} to get support."
+    },
+    "contract_account": {
+      "title": "Not supported",
+      "body": "Smart contract wallets don't support meta-transactions."
+    },
+    "store_update_success": {
+      "title": "Success",
+      "body": "Store data updated correctly"
+    }
+  },
+  "maintainance": {
+    "notice": "We're currently under maintainance, we'll be back soon!"
+  }
+}

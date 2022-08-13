@@ -1,0 +1,45 @@
+.AssetAction .dcl.back {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  margin-left: 2px;
+}
+
+.AssetAction .Row .left {
+  flex: 0.75 1 auto;
+  text-align: right;
+  margin-right: 80px;
+}
+
+.AssetAction .Row .right {
+  flex: 1.25 1 auto;
+}
+
+.AssetAction .asset-image-wrapper {
+  width: 240px;
+  border-radius: 16px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .AssetAction > .Row {
+    flex-direction: column;
+  }
+
+  .AssetAction > .Row .Column.left,
+  .AssetAction > .Row .asset-image-wrapper,
+  .AssetAction > .Row .ui.button {
+    width: 100%;
+  }
+
+  .AssetAction > .Row .buttons {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .AssetAction > .Row .asset-image-wrapper,
+  .AssetAction > .Row .ui.button + .ui.button {
+    margin-left: 0px;
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,44 @@
+.HomePageHero.dcl.hero {
+  height: var(--page-header-height);
+}
+
+.HomePageHero .hero-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background-image: url(../../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HomePageHero.dcl.hero .ui.header.hero-subtitle {
+  margin-bottom: 24px;
+  color: var(--secondary-text);
+}
+
+.HomePage .dcl.header-menu .ui.header {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.HomePage .dcl.header-menu .ui.sub.header {
+  font-size: 17px;
+  line-height: 26px;
+  margin-top: 6px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.HomePage .ui.sub.header {
+  color: #a09ba8;
+}
+
+@media (max-width: 768px) {
+  .HomePage .Slideshow .dcl.header-menu .dcl.header-menu-left {
+    max-width: 268px;
+  }
+}
